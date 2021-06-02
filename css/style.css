@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Lato Regular';
+  src: url("../fontslatoLato-Regular.woff") format("woff"), url("../fontslatoLato-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Lato Medium';
+  src: url("../fonts/lato/Lato-Medium.woff") format("woff"), url("../fonts/lato/Lato-Medium.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -303,3 +317,38 @@ template {
  */
 [hidden] {
   display: none; }
+
+html {
+  box-sizing: border-box;
+  font-size: 14px; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  font-family: '', sans-serif;
+  font-size: 1rem; }
+
+img {
+  max-width: 100%; }
+
+.container {
+  max-width: 1370px;
+  width: 90%;
+  margin: auto; }
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99;
+  padding: 17px 0; }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lato Medium', sans-serif; }
+  .menu__start {
+    display: flex; }

@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'Lato Regular';
+  src: 
+    url('../fonts\lato\Lato-Regular.woff') format('woff'),/*главное указать путь в дереве документа*/
+    url('../fonts\lato\Lato-Regular.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato Medium';
+  src:
+    url('../fonts/lato/Lato-Medium.woff') format('woff'),
+    /*главное указать путь в дереве документа*/
+    url('../fonts/lato/Lato-Medium.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
