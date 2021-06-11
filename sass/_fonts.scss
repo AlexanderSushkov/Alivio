@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'Lato Regular';
   src: 
-    url('../fonts\lato\Lato-Regular.woff') format('woff'),/*главное указать путь в дереве документа*/
-    url('../fonts\lato\Lato-Regular.woff2') format('woff');
+    url('../fonts/lato/Lato-Regular.woff') format('woff'),/*главное указать путь в дереве документа*/
+    url('../fonts/lato/Lato-Regular.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -12,8 +12,17 @@
   font-family: 'Lato Medium';
   src:
     url('../fonts/lato/Lato-Medium.woff') format('woff'),
-    /*главное указать путь в дереве документа*/
     url('../fonts/lato/Lato-Medium.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Georgia';
+  src:
+    url('../fonts/Georgia/Georgia.woff2') format('woff'),
+    url('../fonts/Georgia/Georgia.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
   font-display: swap;

@@ -3,13 +3,42 @@
   left: 0
   top: 0
   width: 100%
+  background-color: #FFFFFF
   z-index: 99
   padding: 17px 0
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    width: 100%
+    height: 1px
+    background-color: #D6D6D6
+
 .menu
   display: flex
   justify-content: space-between
   align-items: center
   &__nav
-  font-family: 'Lato Medium', sans-serif
+    font-family: 'Lato Medium', sans-serif
+    color: #292929
+    display: flex
+    align-items: center
   &__start
     display: flex
+    align-items: center
+.nav
+  &__item
+    font-size: 15px
+    margin-right: 5rem
+    color: #292929
+.start
+  font-family: 'Lato Medium', sans-serif
+  &__forward
+    font-size: 15px
+    color: #000000
+    margin-right: 35px
+  &__btn
+    padding: 13px 50px
+    border-radius: 4px
